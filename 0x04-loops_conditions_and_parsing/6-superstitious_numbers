@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Displays numbers from 1 to 20 in addition to:
-#  "bad luck from China" for the 4th loop iteratio
-#  "bad luck from Japan" for the 9th loop iteration
-#  "bad luck from Italy" for the 17th loop iteration
+#  "bad luck from China" for the 4th iteratio
+#  "bad luck from Japan" for the 9th iteration
+#  "bad luck from Italy" for the 17th iteration
 
-count=0
+count=1
 
-while  [ $count -le 20 ]
+while [ $count -le 20 ]
 do
          echo "$count"
          case "$count in
